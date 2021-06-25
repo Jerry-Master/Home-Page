@@ -142,9 +142,22 @@ body {
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
+  background-position: center;
 }
 .certificates:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
+}
+.certificates span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .6;
 }
 
 #main-content hr {
@@ -177,27 +190,6 @@ body {
 }
 .slider .slick-current {
   opacity: 1;
-}
-
-#menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
-  background-position: center;
-}
-#specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
-  background-position: center;
-}
-#menu-tile span, #specials-tile span, #map-tile span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.6em;
-  text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
 }
 /* END HOME PAGE */
 
