@@ -135,7 +135,7 @@ body {
 }
 
 .certificates {
-  height: 150px;
+  height: 230px;
   margin-bottom: 15px;
   margin-left: 5px;
   margin-right: 5px;
@@ -154,7 +154,7 @@ body {
   width: 100%;
   text-align: center;
   font-size: 1.6em;
-  text-transform: uppercase;
+  text-transform: none;
   background-color: #000;
   color: #fff;
   opacity: .6;
