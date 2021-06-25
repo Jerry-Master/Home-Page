@@ -72,11 +72,19 @@ body {
 #nav-list a:hover {
   background: #E7E7E7;
 }
-#nav-list li:nth-child(3) a:hover span:before {
+#nav-list li.folder a:hover span:before {
   content: "\e118";
 }
 #nav-list a span {
   font-size: 1.8em;
+}
+
+#contact #nav-list a {
+  color: #fff;
+}
+#contact #nav-list a:hover {
+  color: #000;
+  background: #E7E7E7;
 }
 
 #phone {
