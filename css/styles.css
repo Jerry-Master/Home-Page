@@ -135,7 +135,7 @@ body {
 }
 
 .certificates {
-  height: 230px;
+  height: 250px;
   margin-bottom: 15px;
   margin-left: 5px;
   margin-right: 5px;
@@ -307,9 +307,9 @@ h3.menu-item-title {
   /* End Header */
 
   /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
-    height: 558px;
+  .certificates {
+    height: 200px;
+    font-size: 0.8em;
   }
   /* End Home Page */
 }
@@ -343,7 +343,10 @@ h3.menu-item-title {
   /* End Header */
 
   /* Home Page */
-  
+  .certificates {
+    height: 230px;
+    font-size: 0.6em;
+  }
   /* End Home Page */
 }
 
@@ -383,7 +386,7 @@ h3.menu-item-title {
     display: block;
     margin: 0 20px;
     padding: 10px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     background-color: #E7E7E7;
     color: #1c8995;
   }
@@ -409,50 +412,43 @@ h3.menu-item-title {
   /* End Footer */
 
   /* Home Page */
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
+  .certificates {
+    height: 450px;
   }
-  #menu-tile, #specials-tile {
-    width: 360px;
-    margin: 0 auto 15px;
+  .certificates span {
+    font-size: 1.5em;
   }
-
-  .menu-item-photo {
-    margin-right: auto;
-  }
-  .menu-item-tile .menu-item-price {
-    text-align: center;
-  }
-  .menu-item-description {
-    text-align: center;;
-  }
+  /* End Home Page */
 }
 
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
+  .navbar-header > a {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 5px;
-    font-size: 6vw;
+    font-size: 4.5vw;
+  }
+  .navbar-brand span { /* UPC */
+    font-size: 3.3vw;
+  }
+  .navbar-brand #english, .navbar-brand #español {
+    margin-top: 500px;
   }
   /* End Header */
   
   /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
+  .certificates {
+    height: 180px;
   }
-
-  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
+  .certificates span {
+    font-size: 1em;
   }
+  /* End Home Page */
 }
 
 
