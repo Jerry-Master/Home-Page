@@ -49,14 +49,17 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* UPC */
-  color: #000;
+.navbar-brand a { /* UPC */
+  color: #2737de;
   text-transform: uppercase;
-  font-size: .7em;
   margin-top: 15px;
 }
-.navbar-brand p span { /* Logo */
+.navbar-brand a span { /* Logo */
   vertical-align: middle;
+}
+.navbar-brand #english, .navbar-brand #español {
+  color: #000;
+  text-transform: none;
 }
 
 #nav-list {
@@ -82,11 +85,6 @@ body {
 #phone a { /* Phone number */
   text-align: right;
   padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -128,25 +126,59 @@ body {
 }
 /* END FOOTER */
 
-
-
 /* HOME PAGE */
-.container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+#main-content h1 {
+  font-family: 'Oxygen', sans-serif;
+  color: #000;
+  text-decoration: underline;
+  text-decoration-thickness: 0.1em;
 }
 
-#menu-tile, #specials-tile, #map-tile {
-  height: 250px;
-  width: 100%;
+.certificates {
+  height: 150px;
   margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+.certificates:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
+
+#main-content hr {
+  width: 70%;
+  color: #000;
+  opacity: 1;
+  height: 0;
+  border: none;
+  border-top: 2px solid black;
+}
+
+.slider {
+  width: 100%;
+  margin: 100px auto;
+}
+.slider .slick-slide {
+  margin: 0px 5px;
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+.slider .slick-slide img {
+  width: 100%;
+}
+.slider .slick-prev:before,
+.slider .slick-next:before { /* Arrows */
+  color: black;
+}
+.slider .slick-active {
+  opacity: .5;
+}
+.slider .slick-current {
+  opacity: 1;
+}
+
 #menu-tile {
   background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
@@ -319,10 +351,7 @@ h3.menu-item-title {
   /* End Header */
 
   /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
-  }
+  
   /* End Home Page */
 }
 
