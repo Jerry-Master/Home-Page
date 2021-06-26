@@ -147,7 +147,7 @@ body {
   text-decoration-thickness: 0.1em;
 }
 
-.certificates {
+.certificates, .proj {
   height: 250px;
   margin-bottom: 15px;
   margin-left: 5px;
@@ -157,10 +157,10 @@ body {
   overflow: hidden;
   background-position: center;
 }
-.certificates:hover {
+.certificates:hover, .proj:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-.certificates span {
+.certificates span, .proj span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -323,7 +323,7 @@ h3.menu-item-title {
   /* End Header */
 
   /* Home Page */
-  .certificates {
+  .certificates, .proj {
     height: 200px;
     font-size: 0.8em;
   }
@@ -360,7 +360,7 @@ h3.menu-item-title {
   /* End Header */
 
   /* Home Page */
-  .certificates {
+  .certificates, .proj {
     height: 230px;
     font-size: 0.6em;
   }
@@ -422,10 +422,10 @@ h3.menu-item-title {
   /* End Footer */
 
   /* Home Page */
-  .certificates {
+  .certificates, .proj {
     height: 450px;
   }
-  .certificates span {
+  .certificates span, .proj span {
     font-size: 1.5em;
   }
   /* End Home Page */
@@ -455,10 +455,10 @@ h3.menu-item-title {
   /* End Header */
   
   /* Home page */
-  .certificates {
+  .certificates, .proj {
     height: 180px;
   }
-  .certificates span {
+  .certificates span, .proj span {
     font-size: 1em;
   }
   /* End Home Page */
