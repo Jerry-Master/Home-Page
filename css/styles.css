@@ -193,6 +193,7 @@ body {
 }
 .slider .slick-slide img {
   width: 100%;
+  height: 100%;
 }
 .slider .slick-prev:before,
 .slider .slick-next:before { /* Arrows */
