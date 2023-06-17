@@ -24,14 +24,10 @@
           </a>
 
           <div class="navbar-brand">
-            <a href="index-es.html"><h1>Página oficial de Jose Pérez Cano</h1></a>
-            <a href="https://www.upc.edu/ca" target="_blank">
-              <div class="pull-left">
-                <img src="images/upc-logo.png" class="resize-small" alt="UPC logo">
-              </div>
-              <div class="pull-left">
-                Universidad Politécnica<br class="visible-xxs"> de Cataluña
-              </div>
+            <a href="index-es.html"><h1 style="color: orange;">Página web de Jose Pérez Cano</h1></a>
+            <a href="https://elranchito.es/es/" target="_blank">
+              <img src="images/elr-logo.jpg" class="resize-small" alt="El Ranchito logo">
+              <img src="images/elr-logo2.svg" class="resize" alt="El Ranchito logo">
             </a>
             <br><br><br>
             <a href="index.html" id="english"><span>English | </span></a>
@@ -53,8 +49,12 @@
                 <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Inicio</a>
             </li>
             <li>
+              <a href="#work">
+                <span class="glyphicon glyphicon-briefcase"></span><br class="hidden-xs"> Experiencia</a>
+            </li>
+            <li>
               <a href="#diplomas">
-                <span class="glyphicon glyphicon-education"></span><br class="hidden-xs"> Certificados</a>
+                <span class="glyphicon glyphicon-education"></span><br class="hidden-xs"> Cursos</a>
             </li>
             <li class="folder">
               <a href="#projects">
@@ -76,71 +76,42 @@
     659713125
     </a>
   </div>
+
   <div id="main-content" class="container">
-    <h1 id="diplomas" class="text-center">Certificados</h1>
+    <h1 id="work" class="text-center">Experiencia laboral</h1>
     <section class="carousel slider">
       <div>
-        <a href="certificates/Advanced R programming.pdf" target="_blank">
-          <div class="certificates">
-            <!--<embed src="certificates/Advanced R programming.pdf" type="application/pdf">-->
-            <img src="certificates/Advanced R programming.jpg" alt="diploma">
-            <span>Programación R avanzada</span>
+        <a href="https://granadata.art/HMM-padel/" target="_blank">
+          <div class="job" id="arcvi-container">
+            <video id="arcvi" controls>
+              <source src="work/video_output_ball.mp4" type="video/mp4">
+              Tu navegador no soporta la tag de vídeo.
+            </video>
+            <span>Arcvi (Consultor de Visión por Ordenador)</span>
           </div>
         </a>
       </div>
       <div>
-        <a href="certificates/Bayesian Statistics.pdf" target="_blank">
-          <div class="certificates">
-            <img src="certificates/Bayesian Statistics.jpg" alt="diploma">
-            <span>Estadística bayesiana</span>
+        <a>
+          <div class="job">
+            <img src="work/crowsourcing.png" alt="crowdsourcing">
+            <span>Universidad de Granada (Investigador con cargo a proyectos)</span>
           </div>
         </a>
       </div>
       <div>
-        <a href="certificates/Building R packages.pdf" target="_blank">
-          <div class="certificates">
-            <img src="certificates/Building R packages.jpg" alt="diploma">
-            <span>Paquetes R</span>
+        <a href="https://github.com/Jerry-Master/lung-tumour-study" target="_blank">
+          <div class="job">
+            <img src="work/tumourkit.png" alt="tumourkit">
+            <span>Universidad Politécnica de Catalunya (Investigador asociado)</span>
           </div>
         </a>
       </div>
       <div>
-        <a href="certificates/Essential Google Cloud Infrastructure-Foundation.pdf" target="_blank">
-          <div class="certificates">
-            <img src="certificates/Essential Google Cloud Infrastructure-Foundation.jpg" alt="diploma">
-            <span>Infraestructura esencial de Google Cloud-Básico</span>
-          </div>
-        </a>
-      </div>
-      <div>
-        <a href="certificates/Google Cloud Platform Fundamentals Core Infrastucture.pdf" target="_blank">
-          <div class="certificates">
-            <img src="certificates/Google Cloud Platform Fundamentals Core Infrastucture.jpg" alt="diploma">
-            <span>Fundamentos de la infraestructura principal de Google Cloud Platform</span>
-          </div>
-        </a>
-      </div>
-      <div>
-        <a href="certificates/Neural Networks for Machine Learning.pdf" target="_blank">
-          <div class="certificates">
-            <img src="certificates/Neural Networks for Machine Learning.jpg" alt="diploma">
-            <span>Redes neuronales para aprendizaje automático</span>
-          </div>
-        </a>
-      </div>
-      <div>
-        <a href="certificates/R Programming environment.pdf" target="_blank">
-          <div class="certificates">
-            <img src="certificates/R Programming environment.jpg" alt="diploma">
-            <span>Entorno de programación R</span>
-          </div>
-        </a>
-      </div>
-      <div>
-        <a href="certificates/coaching.pdf" target="_blank">
-          <div class="certificates">
-            <img src="certificates/coaching.jpg" alt="diploma">
-            <span>Coaching</span>
+        <a href="https://elranchito.es/es/" target="_blank">
+          <div class="job">
+            <img src="work/ELR-w.jpg" alt="elranchito">
+            <span>El Ranchito (Ingeniero de Machine Learning)</span>
           </div>
         </a>
       </div>
@@ -261,6 +232,75 @@
           <div class="award">
             <img src="premios/fisica.jpg" alt="fisica">
             <span>Olimpiada Nacional de Física 2018</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <hr>
+    <h1 id="diplomas" class="text-center">Certificados</h1>
+    <section class="carousel slider">
+      <div>
+        <a href="certificates/Advanced R programming.pdf" target="_blank">
+          <div class="certificates">
+            <!--<embed src="certificates/Advanced R programming.pdf" type="application/pdf">-->
+            <img src="certificates/Advanced R programming.jpg" alt="diploma">
+            <span>Programación R avanzada</span>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="certificates/Bayesian Statistics.pdf" target="_blank">
+          <div class="certificates">
+            <img src="certificates/Bayesian Statistics.jpg" alt="diploma">
+            <span>Estadística bayesiana</span>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="certificates/Building R packages.pdf" target="_blank">
+          <div class="certificates">
+            <img src="certificates/Building R packages.jpg" alt="diploma">
+            <span>Paquetes R</span>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="certificates/Essential Google Cloud Infrastructure-Foundation.pdf" target="_blank">
+          <div class="certificates">
+            <img src="certificates/Essential Google Cloud Infrastructure-Foundation.jpg" alt="diploma">
+            <span>Infraestructura esencial de Google Cloud-Básico</span>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="certificates/Google Cloud Platform Fundamentals Core Infrastucture.pdf" target="_blank">
+          <div class="certificates">
+            <img src="certificates/Google Cloud Platform Fundamentals Core Infrastucture.jpg" alt="diploma">
+            <span>Fundamentos de la infraestructura principal de Google Cloud Platform</span>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="certificates/Neural Networks for Machine Learning.pdf" target="_blank">
+          <div class="certificates">
+            <img src="certificates/Neural Networks for Machine Learning.jpg" alt="diploma">
+            <span>Redes neuronales para aprendizaje automático</span>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="certificates/R Programming environment.pdf" target="_blank">
+          <div class="certificates">
+            <img src="certificates/R Programming environment.jpg" alt="diploma">
+            <span>Entorno de programación R</span>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="certificates/coaching.pdf" target="_blank">
+          <div class="certificates">
+            <img src="certificates/coaching.jpg" alt="diploma">
+            <span>Coaching</span>
           </div>
         </a>
       </div>
